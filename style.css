@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Edu+VIC+WA+NT+Beginner&family=Nova+Square&family=Rancho&family=Roboto&family=Tangerine&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#home{
+    position: relative;
+    overflow: hidden;
+    height:48.1vw;
+    width: 100%;
+    background-color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:1% 2%;
+}
+#leftnav,#rightnav{
+    display: flex;
+}
+#rightnav{
+    padding-right: 7%;
+}
+#navbar a{
+    font-size: 1.1vw;
+    padding: 0.5% 4%;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10%;
+}
+#navbar a:hover{
+    color: black;
+}
+#rightnav a{
+    margin-right: 40%;
+    border-radius: 50%;
+    /* padding: 0.3vw; */
+}
+#google i:hover{
+    color: rgb(195, 0, 0);
+}
+#instagram i:hover{
+    color: rgb(255, 0, 55);
+}
+#facebook i:hover{
+    color: rgb(0, 13, 255);
+}
+#linkedin i:hover{
+    color: rgb(0, 10, 102);
+}
+
+
+
+
+
+
+
+#education-head,#skill-head,#project-head,#about-head{
+    width:100%;
+  height:15vw;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+#education-head h1,#skill-head h1,#project-head h1,#about-head h1{
+    position: absolute;
+    top: 31%;
+    left: 15.2%;
+    /* font-weight: 200; */
+    font-size: 4.09vw;
+    font-family:'Nova Square', cursive;
+    background:-webkit-linear-gradient(rgb(0 13 93), rgb(0 38 255));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#bar1,#bar2,#bar3,#bar4,#bar5,#bar6,#bar7,#bar8{
+    position: absolute;
+    top: 63.5%;
+    left: 15.47%;
+    height: 0.35vw;
+    width: 21.4vw;
+    background-color:rgb(0 27 255);
+}
+#bar2{
+    top: 68%;
+    background-color:rgb(0 103 234);
+}
+#education{
+    width:100%;
+  height:48.1vw;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+#edu1,#edu2,#edu3{
+    height: 32vw;
+    width: 30vw;
+    top: 12%;
+    left: 3%;
+    position: absolute;
+    border-radius: 0.5vw;
+    background-color: silver;
+    text-align: center;
+}
+#edu2{
+    top: 28%;
+    left: 35%;
+    /* background-color: rgb(0, 255, 136); */
+}
+#edu3{
+    top: 0%;
+    left: 68%;
+    /* background-color: rgb(0, 119, 255); */
+}
+#education img{
+    width: 30vw;
+    height: 20vw;
+    padding: 1.5vw;
+    padding-bottom: 0vw;
+}
+.educlass{
+    text-align: left;
+    padding-left:1.5vw;
+}
+.educlass h2{
+    font-size: 2vw;
+}
+.educlass h3{
+    font-size: 1.5vw;
+}
+.educlass h4{
+    font-size: 1.5vw;
+    color: rgb(86, 86, 86);
+}
+.educlass h5{
+    font-size: 1.3vw;
+}
+.educlass span{
+    font-size: 1.3vw;
+    color: rgb(8, 0, 255);
+}
+
+
+
+
+
+
+
+
+#skill-head h1{
+    top: 35%;
+    left: 70.2%;}
+#bar3{
+    top: 66.1%;
+    left: 70.4%;
+    width: 10.76%;
+    background-color: rgb(0 27 255);
+}
+#bar4{
+    top: 71%;
+    left: 70.4%;
+    width: 10.76%;
+    background-color: rgb(0 103 234);
+}
+#skill-body{
+    position: relative;
+    background-color: black;
+    padding: 0vw 15vw;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding:0.5vw 13vw;
+    border-bottom: 0.1vw solid rgb(255, 255, 255);
+
+}
+.skills h1{
+    color: white;
+    font-size: 1.5vw;
+} 
+.skills p{
+    color:gold;
+    font-size: 1.5vw;
+} 
+#star{
+    color:rgb(255, 255, 255);
+} 
+
+
+
+
+
+#bar5,#bar6{
+    top: 63.5%;
+    left: 15.47%;
+    width: 17.6vw;
+    background-color:rgb(0 27 255);
+}
+#bar6{
+    top: 68%;
+    background-color:rgb(0 103 234);
+}
+#project-body{
+    position: relative;
+    background-color: black;
+    padding: 0% 10%;
+}
+.body{
+    padding: 2vw;
+    background-color: silver;
+    display: flex;
+}
+#project-body img{
+    width: 40vw;
+    height: 25vw;
+    padding: 0vw 3vw;
+}
+.body h1{
+    color: blue;
+    font-family: 'Roboto', sansserif;
+    font-size: 3vw;
+    font-weight: 800;
+}
+.body p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7vw;
+    padding-top:1vw ;
+    font-weight: 600;
+}
+.body a{
+    font-size: 1.8vw;
+    border: 0.25vw solid blue;
+    padding: 0.5% 4%;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.body a:hover{
+    background-color: rgb(0, 123, 255);
+    color: black;
+}
+
+
+
+
+
+
+#about-head h1{
+    top: 40%;
+    left: 50%;
+}
+#bar7,#bar8{
+    top: 70.5%;
+    left: 50.25%;
+    width: 12.9vw
+}
+#bar8{
+    top: 75%;
+    background-color:rgb(0 103 234);
+}
+#about-body{
+    position: relative;
+    background-color: black;
+    padding: 0% 8%;
+    padding-bottom: 5%;
+}
+#about {
+    background-color: rgb(26, 26, 26);
+    padding: 5%;
+}
+#about p{
+    font-size: 1.4vw;
+    /* width: auto60%; */
+    color: rgb(148, 148, 148);
+}
+#about h2{
+    font-size: 2vw;
+    padding-top:1vw;
+    padding-bottom: 1.5vw;
+    color: rgb(229, 229, 229);
+}
+#about a{
+    font-size: 1.8vw;
+    border: 0.25vw solid blue;
+    padding: 0.5% 4%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+#about a:hover{
+    color: blue;
+    background-color: rgb(199, 199, 199);
+    
+}
